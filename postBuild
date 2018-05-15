@@ -1,6 +1,10 @@
 #!/bin/bash
 
-git clone 'https://github.org/geodynamics/aspect.git'
+set -e
+set -v
+set -x
+
+git clone 'https://github.com/geodynamics/aspect.git'
 
 mkdir 'aspect/build'
 
