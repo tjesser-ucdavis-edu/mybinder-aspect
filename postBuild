@@ -12,6 +12,16 @@ cd 'aspect/build'
 
 git checkout v2.0.0
 
-cmake -G Ninja ..
+cmake \
+  -G Ninja \
+  -D CMAKE_INSTALL_PREFIX="${HOME}/.local/bin" \
+  ..
 
-cmake --build . -- all
+cmake \
+  --build . \
+  -- \
+  all \
+  install
+
+echo 'export PATH="${HOME}/.local/bin:${PATH}"' \
+  > "${HOME}/.profile"
