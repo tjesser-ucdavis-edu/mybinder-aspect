@@ -12,4 +12,4 @@ cd 'aspect/build'
 
 cmake -G Ninja ..
 
-cmake --build . -- all install
+cmake --build . -- all
