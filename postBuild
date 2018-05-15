@@ -1,1 +1,11 @@
 #!/bin/bash
+
+git clone 'https://github.org/geodynamics/aspect.git'
+
+mkdir 'aspect/build'
+
+cd 'aspect/build'
+
+cmake ..
+
+cmake --build . -- all install
