@@ -24,4 +24,4 @@ cmake \
   install
 
 echo 'export PATH="${HOME}/.local/bin:${PATH}"' \
-  > "${HOME}/.profile"
+  >> "${HOME}/.profile"
