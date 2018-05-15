@@ -10,6 +10,6 @@ mkdir 'aspect/build'
 
 cd 'aspect/build'
 
-cmake ..
+cmake -G Ninja ..
 
 cmake --build . -- all install

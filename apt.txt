@@ -2,3 +2,4 @@ build-essential
 cmake
 git
 libdeal.ii-dev
+ninja
