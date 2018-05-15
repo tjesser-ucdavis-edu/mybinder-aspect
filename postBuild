@@ -14,7 +14,7 @@ git checkout v2.0.0
 
 cmake \
   -G Ninja \
-  -D CMAKE_INSTALL_PREFIX="${HOME}/.local/bin" \
+  -D CMAKE_INSTALL_PREFIX="${HOME}/.local" \
   ..
 
 cmake \
