@@ -10,6 +10,8 @@ mkdir 'aspect/build'
 
 cd 'aspect/build'
 
+git checkout v2.0.0
+
 cmake -G Ninja ..
 
 cmake --build . -- all
